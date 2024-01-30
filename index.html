@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="home-page">
+        <nav class="navbar">
+            <div class="ham">
+            <div class="navbar-first">
+                <span>JEZ</span> SALAD
+            </div>
+                <div class="navbar-second">
+                    <a class="nsa" href="#">Home</a>
+                    <a class="nsa" href="#">Menu</a>
+                    <a class="nsa" href="#">Contact</a>
+                    <a class="nsa" href="#">About Us</a>
+                </div>
+                <div class="navbar-third">
+                    Sign
+                </div>
+            </div>
+            <div class="hamburger" onclick="hamburger()">
+                &#9776;
+            </div>
+            <div class="close" onclick="hamclose()">
+                &times;
+            </div>
+        </nav>
+        <main>
+            <section class="hero-section">
+                <div class="hero-section-left">
+                    <div class="hero-section-left-tag">
+                        #1 Best Healthy Salad
+                    </div>
+                    <div class="hero-section-left-title">
+                        <span class="hero-section-left-title-yellow">Skip</span> The Diet, Just Eat Healthy With Jez
+                        Salad
+                    </div>
+                    <div class="hero-section-left-desc">
+                        Imagine you don't need a diet because we provide healthy and delicious food for you!
+                    </div>
+                    <div class="hero-section-left-button">
+                        Order Food
+                    </div>
+                    <div class="hero-section-left-box">
+                        <div class="hero-section-left-subbox">
+                            <span class="hero-section-left-num">5.000+</span>
+                            <span class="hero-section-left-des">Customer</span>
+                        </div>
+                        <div class="hero-section-left-subbox">
+                            <span class="hero-section-left-num">8.000+</span>
+                            <span class="hero-section-left-des">Delivery</span>
+                        </div>
+                        <div class="hero-section-left-subbox">
+                            <span class="hero-section-left-num">1.000+</span>
+                            <span class="hero-section-left-des">Ratings</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-section-right">
+                    <img src="./images/Illustration.png" alt="">
+                </div>
+            </section>
+            <section class="section2">
+                <div class="section2-first">
+                    <span class="section2-first-title">WHY CHOOSE US <br>FOR <span
+                            class="hero-section-left-title-yellow">YOUR HEALTHY FOOD</span></span>
+                    <span class="section2-first-desc">We continue to consistently choose and maintain the quality of the
+                        fruit served, so that it remains fresh and nutritious when you eat it.</span>
+                </div>
+                <div class="section2-second">
+                    <div class="section2-second-card">
+                        <div class="section2-second-card-top">
+                            <img src="./images/Icon.png" alt="icon" loading="lazy">
+                        </div>
+                        <div class="section2-second-card-bottom">
+                            <span class="section2-second-card-title">
+                                Own fruit orchard
+                            </span>
+                            <span class="section2-second-card-desc">
+                                Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko
+                                Jez Salad.
+                            </span>
+                            <div class="section2-second-card-button">
+                                Learn more
+                                <img src="https://static.thenounproject.com/png/3536394-200.png" alt="right arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2-second-card">
+                        <div class="section2-second-card-top">
+                            <img src="./images/Icon (1).png" alt="icon" loading="lazy">
+                        </div>
+                        <div class="section2-second-card-bottom">
+                            <span class="section2-second-card-title">
+                                #1 Healthy Fruit Salad
+                            </span>
+                            <span class="section2-second-card-desc">
+                                The pioneer of healthy fruit salads that are delicious & suitable for all with the best
+                                quality assurance.
+                            </span>
+                            <div class="section2-second-card-button">
+                                Learn more
+                                <img src="https://static.thenounproject.com/png/3536394-200.png" alt="right arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2-second-card">
+                        <div class="section2-second-card-top">
+                            <img src="./images/Icon (2).png" alt="icon" loading="lazy">
+                        </div>
+                        <div class="section2-second-card-bottom">
+                            <span class="section2-second-card-title">
+                                100 Top Brand
+                            </span>
+                            <span class="section2-second-card-desc">
+                                We are one of the best brands in the Food and Beverage sector in Indonesia.
+                            </span>
+                            <div class="section2-second-card-button">
+                                Learn more
+                                <img src="https://static.thenounproject.com/png/3536394-200.png" alt="right arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section3">
+                <div class="section3-div">
+                    <div class="section3-left">
+                        <span class="section3-left-title">
+                            What Are People Saying <span class="hero-section-left-title-yellow">About Us</span>
+                        </span>
+                        <span class="section3-left-desc">
+                            We are very happy if you are satisfied with our service and products, let's read pure
+                            reviews from customers who bought our products.
+                        </span>
+                        <div class="section3-left-count-box">
+                            <span class="section3-left-count-box-number" id="section3-left-count-box-number">01</span>
+                            <span class="section3-left-count-box-total">/ 05</span>
+                        </div>
+                        <div class="section3-left-pn-box">
+                            <a onclick="counterPrev()">
+                                <div class="section3-left-prev">
+                                    <img src="https://static.thenounproject.com/png/3536394-200.png" alt="right arrow">
+                                </div>
+                            </a>
+                            <a onclick="counterNext()">
+                                <div class="section3-left-next">
+                                    <img src="https://static.thenounproject.com/png/3536394-200.png" alt="right arrow">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section3-right">
+                        <div class="section3-right-main-card" id="section3-right-main-card1">
+                            <div class="section3-right-card" id="section3-right-card1">
+                                <div class="section3-right-card-img">
+                                    <img src="./images/Container.png" alt="img">
+                                </div>
+                                <span class="section3-right-card-name">Selena Gomz</span>
+                                <span class="section3-right-card-age">22 Years</span>
+                                <span class="section3-right-card-desc">The salad is fresh!!! Don't ask about the sauce
+                                    again, it's really delicious, it's going to be routine. I recommend this salad to
+                                    all of you guys! because they really take care of the quality.</span>
+                            </div>
+                        </div>
+                        <div class="section3-right-main-card" id="section3-right-main-card2">
+                            <div class="section3-right-card" id="section3-right-card2">
+                                <div class="section3-right-card-img">
+                                    <img src="./images/Container (1).png" alt="img">
+                                </div>
+                                <span class="section3-right-card-name">Selena Gomz</span>
+                                <span class="section3-right-card-age">22 Years</span>
+                                <span class="section3-right-card-desc">The salad is fresh!!! Don't ask about the sauce
+                                    again, it's really delicious, it's going to be routine. I recommend this salad to
+                                    all of you guys! because they really take care of the quality.</span>
+                            </div>
+                        </div>
+                        <div class="section3-right-main-card" id="section3-right-main-card3">
+                            <div class="section3-right-card" id="section3-right-card3">
+                                <div class="section3-right-card-img">
+                                    <img src="./images/Container (2).png" alt="img">
+                                </div>
+                                <span class="section3-right-card-name">Selena Gomz</span>
+                                <span class="section3-right-card-age">22 Years</span>
+                                <span class="section3-right-card-desc">The salad is fresh!!! Don't ask about the sauce
+                                    again, it's really delicious, it's going to be routine. I recommend this salad to
+                                    all of you guys! because they really take care of the quality.</span>
+                            </div>
+                        </div>
+                        <div class="section3-right-main-card" id="section3-right-main-card4">
+                            <div class="section3-right-card" id="section3-right-card4">
+                                <div class="section3-right-card-img">
+                                    <img src="./images/Container (2).png" alt="img">
+                                </div>
+                                <span class="section3-right-card-name">Selena Gomz</span>
+                                <span class="section3-right-card-age">22 Years</span>
+                                <span class="section3-right-card-desc">The salad is fresh!!! Don't ask about the sauce
+                                    again, it's really delicious, it's going to be routine. I recommend this salad to
+                                    all of you guys! because they really take care of the quality.</span>
+                            </div>
+                        </div>
+                        <div class="section3-right-main-card" id="section3-right-main-card5">
+                            <div class="section3-right-card" id="section3-right-card5">
+                                <div class="section3-right-card-img">
+                                    <img src="./images/Container (2).png" alt="img">
+                                </div>
+                                <span class="section3-right-card-name">Selena Gomz</span>
+                                <span class="section3-right-card-age">22 Years</span>
+                                <span class="section3-right-card-desc">The salad is fresh!!! Don't ask about the sauce
+                                    again, it's really delicious, it's going to be routine. I recommend this salad to
+                                    all of you guys! because they really take care of the quality.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section4">
+                <span class="section4-desc">
+                    MENU YANG MEMBUATMU JATUH CINTA
+                </span>
+                <span class="section4-title">
+                    ENJOY THE BEST MENU AND GET<br><span class="hero-section-left-title-yellow">DISCOUNTS</span>
+                    AVAILABLE
+                </span>
+                <div class="section4-cards">
+                    <div class="section4-card">
+                        <img src="./images/front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png"
+                            alt="vegetable">
+                        <div class="section4-card-np">
+                            <span class="section4-card-name">Mini Salad Yummy</span>
+                            <span class="section4-card-price">$ 2.99</span>
+                        </div>
+                    </div>
+                    <div class="section4-card">
+                        <img src="./images/top-view-fruity-salad-with-fresh-sliced-fruits 1.png" alt="vegetable">
+                        <div class="section4-card-np">
+                            <span class="section4-card-name">Completed Salad</span>
+                            <span class="section4-card-price">$ 3.99</span>
+                        </div>
+                    </div>
+                    <div class="section4-card">
+                        <img src="./images/top-view-fruity-salad-with-fresh-sliced-fruits 1 (1).png" alt="vegetable">
+                        <div class="section4-card-np">
+                            <span class="section4-card-name">Salad Yummy Red</span>
+                            <span class="section4-card-price">$ 4.49</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section5">
+                <img src="./images/Frame 51.png" alt="">
+                <div class="section5-div">
+                    <span class="section5-ftext">Our Subscribe</span>
+                    <span class="section5-title">Subscribe To Get The Latest<br>Promo from Jez Salad</span>
+                    <span class="section5-desc">We recommended you to subscribe to our promo program,<br>drop your email
+                        below to get daily update about us</span>
+                    <div class="section5-email" for="section5-email">
+                        <input type="text" id="section5-email" placeholder="Enter your email address">
+                        <div class="section5-btn">Subscribe</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer1">
+                <div class="footer1-top">
+                    <div class="navbar-first">
+                        <span>JEZ</span> SALAD
+                    </div>
+                    <div class="footer1-desc">
+                        Jez Salad is the pioneer of healthy fruit salad with high nutrition.
+                    </div>
+                </div>
+                <div class="footer1-cp">
+                    &copy;Copyright Jez Salad
+                </div>
+            </div>
+            <div class="footer2">
+                <span>Feature</span>
+                <a href="#">Menu</a>
+                <a href="#">Promo</a>
+                <a href="#">Contact</a>
+                <a href="#">About us</a>
+            </div>
+            <div class="footer3">
+                <span>Get in Touch</span>
+                <a href="https://www.google.co.in/maps/place/Ohio+Ave,+South+Gate,+CA+90280,+USA/@33.9500355,-118.2242232,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2cbe293710a61:0x67c1b6553fdb1f78!8m2!3d33.9500355!4d-118.2216483!16s%2Fg%2F1v9gk87n?entry=ttu"
+                    class="footer3-div">
+                    <span><img src="./images/location-dot-solid (2).svg" alt=""></span>
+                    8819 Ohio St. South Gate, CA 90280
+                </a>
+                <a href="mailto:Ourstudio@hello.com" class="footer3-div">
+                    <span><img src="./images/envelope-solid.svg" alt=""></span>
+                    Ourstudio@hello.com
+                </a>
+                <a href="tel:+1386-688-3295" class="footer3-div">
+                    <span><img src="./images/phone-solid.svg"></span>
+                    <!-- <span>&phone;</span> -->
+                    +1 386-688-3295
+                </a>
+            </div>
+            <div class="footer4">
+                <div class="footer4-img">
+                    <a href="https://twitter.com/?lang=en"><img src="./images/Vector (3).png" alt="x"></a>
+                    <a href="https://in.linkedin.com/"><img src="./images/linkedin (2) 1.png" alt="linkedin"></a>
+                    <a href="https://www.instagram.com/"><img src="./images/instagram (2) 1.png" alt="insta"></a>
+                </div>
+                <span>Follow our social media.</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
