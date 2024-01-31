@@ -2,4 +2,4 @@
 
 ## Site is live:
 https://nikunjsonigara.github.io/JEZ-SALAD-PT/
-https://i.pinimg.com/originals/8b/c8/25/8bc82544ef312c696b66dac6ea3c957d.gif
+![8bc82544ef312c696b66dac6ea3c957d](https://github.com/NikunjSonigara/JEZ-SALAD-PT/assets/106422654/8f06428b-9173-4fac-afc8-b7e28d1285d7)
